@@ -45,9 +45,6 @@ li {
   vertical-align: top;
   text-align: left;
   width: 20%; }
-  li:hover {
-    color: white;
-    box-sizing: border-box; }
 
 .pic-text {
   color: white;
@@ -57,4 +54,15 @@ li {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1000px; } }
+    width: 900px; } }
+
+a:link {
+  text-decoration: none;
+  color: #94e573; }
+
+a:hover {
+  color: white;
+  box-sizing: border-box; }
+
+a:visited {
+  color: #94e573; }
